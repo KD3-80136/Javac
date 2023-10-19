@@ -16,11 +16,11 @@ public class Test
 		BookComparator bookComp=new BookComparator();
 		
 	TreeSet<Book>set=new TreeSet<Book>(bookComp);
-    set.add(new Book("H5",89.0,"JK Rolling",2));
-    set.add(new Book("H2",35.0,"John keats",3));
-    set.add(new Book("H2",55.0,"Chetan",4));
-    set.add(new Book("H4",100.0,"Amish",1));
-    set.add(new Book("H1",50.0,"Durjoy",5));
+    set.add(new Book("R5",89.0,"Rutuja",2));
+    set.add(new Book("R2",35.0,"Bhumika",3));
+    set.add(new Book("R2",55.0,"Chaitrali",4));
+    set.add(new Book("R4",100.0,"Sammed",1));
+    set.add(new Book("R1",50.0,"Akash",5));
    
     System.out.println("Display all books in Forward Order......");
     Iterator<Book>itr=set.iterator();
